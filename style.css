@@ -1,0 +1,592 @@
+/* FIRST SECTION */ 
+
+.first {
+    height: 90vh;
+    width: 100vw;
+    background-image: linear-gradient(to top, #9BCC56 , #fff);
+    display: flex;
+    justify-content: center;
+}
+
+.first-box {
+    display: flex;
+    width: 70%;
+    height: 90vh;
+}
+
+.first-image-box {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    width: 45%;
+}
+
+.first-image-box img {
+    width: 100%;
+}
+
+.first-text-box {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    width: 55%;
+}
+
+.first-text {
+    padding-left: 2rem;
+}
+
+.first-text-box h1 {
+    font-family: 'Arvo';
+    font-size: 3.5rem;
+    font-weight: 100;
+}
+
+.first-text-box h1 span {
+    font-family: 'Arvo';
+    font-weight: 900;
+}
+
+.first-text-p {
+    margin: 1rem 0 2rem 0;
+}
+
+.first-text-box p {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #555555;
+}
+
+.first-text a {
+    display: inline-block;
+    background-color: #2FB675;
+    color: white;
+    border: none;
+    text-decoration: none;
+    padding: 0.7rem 1.7rem;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #9BCC56;
+}
+
+.first-text a:hover {
+    font-weight: bold;
+    margin-left: 2px;
+    transition: all 500ms ease;
+}
+
+/* PILLARS */ 
+
+.pillars-section {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images/bg-03.png);
+    background-color: #FDF6F1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pillars-section-box {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pillars-section-box-title, .news-section-box-title {
+    width: 45vw;
+    margin-bottom: 2rem;
+}
+
+.pillars-section-box h5, .news-section-box-title h5 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #91C846;
+    font-weight: 700;
+    font-family: 'Arvo';
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.pillars-section-box h2, .news-section-box-title h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Arvo';
+    font-weight: 700;
+}
+
+.pillars-box {
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url(images/bg-01.png);
+    background-color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pillars-box-background {
+    background-image: url(images/bg-02.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.pillars-content {
+    width: 95%;
+    display: flex;
+}
+
+.pillars-image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: auto;
+}
+
+.pillars-image-box img {
+    width: 90%;
+    border-radius: 50%;
+    border: 6px solid #8dc63f;
+}
+
+.pillars-text-box {
+    width: 64%;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pillars-text-box h4, span {
+    font-family: 'Arvo';
+}
+
+.pillars-text-box h4 {
+    font-size: 2rem;
+}
+
+.pillars-text-box span {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.pillars-text-box p {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    color: #555555;
+}
+
+div#prayer {
+    display: none;
+}
+
+div#fasting {
+    display: none;
+}
+
+div#charity {
+    display: none;
+}
+
+div#hajj {
+    display: none;
+}
+
+.buttons-box {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.75rem;
+    position: relative;
+}
+
+.buttons-box button {
+    width: 7.5rem;
+    height: 7.5rem;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.button-active {
+    position: absolute;
+    bottom: 0;
+    background-color: #8dc63f;
+    height: 6px;
+    width: 7.5rem;
+    display: none;
+}
+
+div#activefaith {
+    display: block;
+}
+
+/* PROPHET QUOTES */ 
+
+.prophet-quotes-section {
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('images/bg-prophet-quotes.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prophet-quotes-box {
+    padding: 8rem 0;
+    display: flex;
+    width: 55%;
+}
+
+.quote-image-box {
+    background-color: #8dc63f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    border: 3px solid #fff;
+}
+
+.quote-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-image p {
+    color: #555555;
+    font-size: 1.5rem;
+    font-family: 'Arvo';
+    font-weight: bolder;
+    text-align: center;
+    width: 80%;
+}
+
+.prophet-sayings-text {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+.prophet-sayings-text p, footer {
+    font-size: 1.7rem;
+    color: #fff;
+    font-weight: bolder;
+    font-family: 'Arvo';
+}
+
+.prophet-sayings-text span {
+    color: #ffe400;
+}
+
+.prophet-sayings-text footer {
+    margin-top: 2rem;
+    font-weight: normal;
+    font-size: 1.1rem;
+}
+
+/* ARTICLES SECTION */ 
+
+.news-section {
+    background-image: url(images/bg-03.png);
+    background-color: #FDF6F1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: left;
+}
+
+.news-section-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 6rem 0;
+}
+
+.news-section-box-news {
+    display: flex;
+    width: 60vw;
+    gap: 1.83333333%;
+}
+
+.news-section-box-news article {
+    width: 31.5%;
+}
+
+.article-image-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.article-text-box {
+    background-color: #fff;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.article-text {
+    width: 85%;
+}
+
+.article-text h5 {
+    font-size: 1.5rem;
+    font-family: 'Arvo';
+}
+
+.article-text p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.article-text a {
+    text-decoration: none;
+    color: #8dc63f;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.article-text a:hover {
+    color: #182D41;
+    margin-left: 5px;
+    transition: 500ms ease;
+}
+
+i#calendar-icon {
+    color: #8DC63F;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #051639;
+}
+
+.footer-box {
+    padding: 1rem 0;
+}
+
+.copy-box p {
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.copy-box a {
+    text-decoration: none;
+    color: #8DC63F;
+    font-size: 1.1rem;
+}
+
+@media (min-width: 800px) and (max-width: 1400px) {
+
+    html {
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    
+    html {
+        font-size: 14px;
+        overflow-x: hidden;
+    }
+
+    .first {
+        height: auto;
+        display: flex;
+    }
+    
+    .first-box {
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 3.5rem 0;
+    }
+    
+    .first-image-box {
+        height: auto;
+        width: 85%;
+        margin: 3rem 0 1.5rem 0;
+    }
+    
+    .first-image-box img {
+        width: 100%;
+    }
+    
+    .first-text-box {
+        height: auto;
+        width: 85%;
+    }
+    
+    .first-text {
+        padding-left: 0;
+    }
+    
+    .first-text-box h1 {
+        font-size: 2.5rem;
+    }
+    
+    .first-text-p {
+        margin: 1rem 0 1.5rem 0;
+    }
+    
+    .first-text-box p {
+        margin-bottom: 0.4rem;
+    }
+
+    .pillars-section {
+        height: auto;
+    }
+    
+    .pillars-section-box {
+        width: 90%;
+        padding: 3rem 0;
+    }
+    
+    .pillars-section-box-title, .news-section-box-title {
+        width: 90vw;
+        margin-bottom: 2rem;
+    }
+    
+    .pillars-section-box h5, .news-section-box-title h5 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .pillars-section-box h2, .news-section-box-title h2 {
+        font-size: 2rem;
+    }
+    
+    .pillars-box {
+        height: auto;
+    }
+    
+    .pillars-box-background {
+        background-image: none;
+    }
+    
+    .pillars-content {
+        width: 95%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .pillars-image-box {
+        width: 80%;
+        height: auto;
+        margin: 2rem 0 1rem 0;
+    }
+    
+    .pillars-image-box img {
+        width: 90%;
+    }
+    
+    .pillars-text-box {
+        width: 90%;
+        text-align: center;
+    }
+    
+    .pillars-text-box h4 {
+        font-size: 1.8rem;
+    }
+    
+    .pillars-text-box span {
+        font-size: 1.3rem;
+    }
+    
+    .pillars-text-box p {
+        font-size: 1.3rem;
+        margin: 0.5rem 0 2rem 0;
+    }
+    
+    .buttons-box {
+        margin-top: 1.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .buttons-box button {
+        position: relative;
+    }
+
+    .prophet-quotes-section {
+        background-position: center;
+    }
+    
+    .prophet-quotes-box {
+        padding: 5rem 0;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+    
+    .prophet-sayings-text {
+        margin-top: 1rem;
+        text-align: center;
+        width: 80%;
+        margin-left: 0;
+    }
+    
+    .prophet-sayings-text p, footer {
+        font-size: 1.5rem;
+        color: #fff;
+        font-weight: bolder;
+        font-family: 'Arvo';
+    }
+    
+    .prophet-sayings-text footer {
+        margin-top: 1.5rem;
+    }
+
+    .news-section {
+        background-size: cover;
+    }
+    
+    .news-section-box {
+        padding: 4rem 0;
+    }
+    
+    .news-section-box-news {
+        width: 90vw;
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .news-section-box-news article {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+    .article-text {
+        width: 90%;
+    }
+    
+    .article-text p {
+        font-size: 1.1rem;
+    }
+
+}

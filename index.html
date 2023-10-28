@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no' name='viewport'>
+    <link rel="shortcut icon" href="images/mosque-logo.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="assets/style/header.css">
+    <link rel="stylesheet" href="assets/style/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Islam Central</title>
+</head>
+<body>
+    <header>
+        <div class="header-box">
+            <div class="logo">
+                <img src="images/mosque-logo.png" alt="">
+            </div>
+            <div class="header-menu">
+                <i id="menu" class='bx bx-menu' onclick="clickMenu()"></i>
+                <nav id="itens">
+                    <a href="index.html">Home</a>
+                    <a href="">About</a>
+                    <a href="">Soon</a>
+                    <a href="">Soon</a>
+                    <a href="">Soon</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="first">
+            <div class="first-box">
+                <div class="first-image-box" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true">
+                    <img src="images/prayer.png" alt="">
+                </div>
+                <div class="first-text-box">
+                    <div class="first-text" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true">
+                        <h1>And Allah Invites To The<span> Home Of Peace</span></h1>
+                        <div class="first-text-p">
+                            <p>At Islam Central, we connect Muslims to their goals, interests, aspirations, and community.</p>
+                            <p>We provide tools for Muslims to practise their faith and inspire Muslims, wherever they are.</p>
+                        </div>    
+                        <a href="images/mosque-logo.png" download>Download App</a>                  
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pillars-section">
+            <div class="pillars-section-box">
+                <div class="pillars-section-box-title" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true">
+                    <h5>The Five Pillars of Islam</h5>
+                    <h2>Ethical And Moral Beliefs That Guides To The Straight Path!</h2>
+                </div>
+                <div class="pillars-box">
+                    <div class="pillars-box-background" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
+                        <div class="pillars-content" id="faith" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">
+                            <div class="pillars-image-box">
+                                <img src="images/pillars/faith-border.png">
+                            </div>
+                            <div class="pillars-text-box">
+                                <div class="pillars-text">
+                                    <h4>Shahadah <span>(Faith)</span></h4>
+                                    <p>Each Person should take their declaration of faith to become a muslim 'There is no God but Allah, Muhammad is the messenger of Allah.' Muslims repeat the Shahadah first thing on waking and last thing before sleeping. They are the first words whispered into the ears of a new-born baby, and if possible, the last words uttered to the dying.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pillars-content" id="prayer">
+                            <div class="pillars-image-box">
+                                <img src="images/pillars/prayer-border.png">
+                            </div>
+                            <div class="pillars-text-box">
+                                <div class="pillars-text">
+                                    <h4>Salaah <span>(Prayer)</span></h4>
+                                    <p>Each Muslim should pray five times a day: in the morning, at noon, in the afternoon, after sunset, and early at night. These prayers can be said anywhere, prayers that are said in company of others are better than those said alone.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pillars-content" id="fasting">
+                            <div class="pillars-image-box">
+                                <img src="images/pillars/fasting-border.png">
+                            </div>
+                            <div class="pillars-text-box">
+                                <div class="pillars-text">
+                                    <h4>Sawm <span>(Fasting)</span></h4>
+                                    <p>Each Muslim should abstain from food and drink, as well as smoking and sex, between sunrise and sunset during the month of Ramadan, the ninth month in the Muslim calendar.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pillars-content" id="charity">
+                            <div class="pillars-image-box">
+                                <img src="images/pillars/charity-border.png">
+                            </div>
+                            <div class="pillars-text-box">
+                                <div class="pillars-text">
+                                    <h4>Zakat <span>(Almsgiving)</span></h4>
+                                    <p>Each Muslim should donate a fixed amount of their property to charity every year. Many pious individuals, from the mightiest rulers to modest merchants, give money to help out the less-fortunate.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pillars-content" id="hajj">
+                            <div class="pillars-image-box">
+                                <img src="images/pillars/hajj-border.png">
+                            </div>
+                            <div class="pillars-text-box">
+                                <div class="pillars-text">
+                                    <h4>Hajj <span>(Pilgrimage)</span></h4>
+                                    <p>Each Muslim who is physically and financially capable should do the pilgrimage to Mecca, Saudi Arabia, at least once in lifetime, a profound spiritual experience that wipes away sins, brings us closer to Allah and highlights Muslim unity.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttons-box" data-aos="slide-right" data-aos-duration="2000" data-aos-once="true">
+                    <button onclick="clickMenuFaith()">
+                        <img src="images/pillars/faith.png">
+                        <div id="activefaith" class="button-active"></div>
+                    </button>
+                    <button onclick="clickMenuPrayer()">
+                        <img src="images/pillars/prayer.png">
+                        <div id="activeprayer" class="button-active"></div>
+                    </button>
+                    <button onclick="clickMenuFasting()">
+                        <img src="images/pillars/fasting.png">
+                        <div id="activefast" class="button-active"></div>
+                    </button>
+                    <button onclick="clickMenuCharity()">
+                        <img src="images/pillars/charity.png">
+                        <div id="activecharity" class="button-active"></div>
+                    </button>
+                    <button onclick="clickMenuHajj()">
+                        <img src="images/pillars/hajj.png">
+                        <div id="activehajj" class="button-active"></div>
+                    </button>
+                </div>            
+            </div>
+        </section>
+        <section class="prophet-quotes-section">
+            <div class="prophet-quotes-box" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true">
+                <div class="quote-image-box">
+                    <div class="quote-image">
+                        <p>Quote From Prophet</p>
+                    </div>
+                </div>
+                <div class="prophet-sayings-text">
+                    <p>Hazrat Mohammod (s) Said <span>"If Anyone Travels On a Road In Search Of Knowledge, Allah Will Cause Him To Travel On One Of The Roads Of Paradise."</span></p>
+                    <footer>— Abu Darda in Sunan Abu Dawood, Hadith 1631</footer>
+                </div>              
+            </div>
+        </section>
+        <section class="news-section">
+            <div class="news-section-box">
+                <div class="news-section-box-title" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true">
+                    <h5>Islam Central Articles</h5>
+                    <h2>Articles To Expand Our Knowledge About Islam</h2>
+                </div>
+                <div class="news-section-box-news">
+                    <article data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true">
+                        <div class="article-image-box">
+                            <img src="images/articles/1317135756.jpeg" alt="">
+                        </div>
+                        <div class="article-text-box">
+                            <div class="article-text">
+                                <h5>Articles Coming Soon</h5>
+                                <p><i id="calendar-icon" class='bx bxs-calendar'></i> October XX,2023</p>
+                                <a href="">Read Article</a>
+                            </div>                           
+                        </div>
+                    </article>
+                    <article data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true">
+                        <div class="article-image-box">
+                            <img src="images/articles/1317135756.jpeg" alt="">
+                        </div>
+                        <div class="article-text-box">
+                            <div class="article-text">
+                                <h5>Articles Coming Soon</h5>
+                                <p><i id="calendar-icon" class='bx bxs-calendar'></i> October XX,2023</p>
+                                <a href="">Read Article</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true">
+                        <div class="article-image-box">
+                            <img src="images/articles/1317135756.jpeg" alt="">
+                        </div>
+                        <div class="article-text-box">
+                            <div class="article-text">
+                                <h5>Articles Coming Soon</h5>
+                                <p><i id="calendar-icon" class='bx bxs-calendar'></i> October XX,2023</p>
+                                <a href="">Read Article</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-box">
+            <div class="copy-box">
+                <p>©2023 <a target="_blank" href="https://rodrigoopereira.github.io/portfolio">Rodrigo Pereira</a> All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="pillars.js"></script>
+    <script src="menu.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
