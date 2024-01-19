@@ -1,5 +1,9 @@
 /* FIRST SECTION */ 
 
+main {
+    width: 100vw;
+}
+
 .first {
     height: 90vh;
     width: 100vw;
@@ -80,7 +84,7 @@
 .pillars-section {
     height: 100vh;
     width: 100vw;
-    background-image: url(images/bg-03.png);
+    background-image: url('../../images/bg-03.png');
     background-color: #FDF6F1;
     background-size: contain;
     background-repeat: no-repeat;
@@ -124,14 +128,14 @@
 .pillars-box {
     width: 100%;
     height: 40vh;
-    background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url(images/bg-01.png);
+    background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url('../../images/bg-01.png');
     background-color: #fff;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .pillars-box-background {
-    background-image: url(images/bg-02.png);
+    background-image: url('../../images/bg-02.png');
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
@@ -235,7 +239,7 @@ div#activefaith {
 /* PROPHET QUOTES */ 
 
 .prophet-quotes-section {
-    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('images/bg-prophet-quotes.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../../images/bg-prophet-quotes.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -303,7 +307,7 @@ div#activefaith {
 /* ARTICLES SECTION */ 
 
 .news-section {
-    background-image: url(images/bg-03.png);
+    background-image: url('../../images/bg-03.png');
     background-color: #FDF6F1;
     background-size: contain;
     background-repeat: no-repeat;
@@ -327,20 +331,27 @@ div#activefaith {
 
 .news-section-box-news article {
     width: 31.5%;
+    background-color: white;
+    height: 45vh;
+}
+
+.article-image-box {
+    height: 60%;
 }
 
 .article-image-box img {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
     object-fit: cover;
 }
 
 .article-text-box {
+    height: 40%;
     background-color: #fff;
-    padding: 2rem 0;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .article-text {
@@ -372,28 +383,6 @@ div#activefaith {
 
 i#calendar-icon {
     color: #8DC63F;
-}
-
-/* FOOTER */
-
-.footer {
-    background-color: #051639;
-}
-
-.footer-box {
-    padding: 1rem 0;
-}
-
-.copy-box p {
-    color: #fff;
-    text-align: center;
-    font-size: 1rem;
-}
-
-.copy-box a {
-    text-decoration: none;
-    color: #8DC63F;
-    font-size: 1.1rem;
 }
 
 @media (min-width: 800px) and (max-width: 1400px) {

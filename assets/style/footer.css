@@ -1,0 +1,32 @@
+.footer {
+    background-color: #051639;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.footer-box {
+    padding: 0rem 0;
+}
+
+.copy-box p {
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.copy-box a {
+    text-decoration: none;
+    color: #8DC63F;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 800px) {
+
+    .footer {
+        height: 7vh;
+    }
+
+}

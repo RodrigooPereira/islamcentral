@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/mosque-logo.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/style/header.css">
+    <link rel="stylesheet" href="assets/style/reset.css">
+    <link rel="stylesheet" href="assets/style/contact.css">
+    <link rel="stylesheet" href="assets/style/footer.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <div class="header-box">
+            <div class="logo">
+                <img src="images/mosque-logo.png" alt="">
+            </div>
+            <div class="header-menu">
+                <i id="menu" class='bx bx-menu' onclick="clickMenu()"></i>
+                <nav id="itens">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="">Articles</a>
+                    <a href="">Soon</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="contact-box">
+            <h1>Contact <span>Us</span></h1>
+            <div class="contact-content__box">
+                <form action="https://formsubmit.co/rodrigo.islamcentral@gmail.com" method="POST">
+                    <div class="contact-input__row">
+                        <input type="text" name="name" placeholder="Name*">
+                        <input type="email" name="email" placeholder="Email Adress*">
+                    </div>
+                    <div class="contact-input__row">
+                        <input type="text" name="phone" placeholder="Phone Number">
+                        <input type="text" name="subject" placeholder="Email Subject*">
+                    </div>
+                    <div class="message-input__box">
+                        <textarea name="message" placeholder="Your Message*"></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>        
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-box">
+            <div class="copy-box">
+                <p>©2024 <a target="_blank" href="https://rodrigoopereira.github.io/portfolio">Rodrigo Pereira</a> All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/menu.js"></script>
+</body>
+</html>
