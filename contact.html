@@ -21,9 +21,9 @@
                 <i id="menu" class='bx bx-menu' onclick="clickMenu()"></i>
                 <nav id="itens">
                     <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
                     <a href="">Articles</a>
                     <a href="">Soon</a>
+                    <a href="about.html">About</a>
                     <a href="contact.html">Contact</a>
                 </nav>
             </div>
@@ -35,17 +35,18 @@
             <div class="contact-content__box">
                 <form action="https://formsubmit.co/rodrigo.islamcentral@gmail.com" method="POST">
                     <div class="contact-input__row">
-                        <input type="text" name="name" placeholder="Name*">
-                        <input type="email" name="email" placeholder="Email Adress*">
+                        <input type="text" name="Name" placeholder="Name*">
+                        <input type="email" name="Email" placeholder="Email Adress*">
                     </div>
                     <div class="contact-input__row">
-                        <input type="text" name="phone" placeholder="Phone Number">
-                        <input type="text" name="subject" placeholder="Email Subject*">
+                        <input type="text" name="Phone" placeholder="Phone Number">
+                        <input type="text" name="Subject" placeholder="Email Subject*">
                     </div>
                     <div class="message-input__box">
-                        <textarea name="message" placeholder="Your Message*"></textarea>
+                        <textarea id="" cols="30" rows="10" name="message" placeholder="Your Message*"></textarea>
                     </div>
-                    <button type="submit">Send Message</button>
+                    <button type="submit" value="Send Message">Send Message</button>
+                    <input type="hidden" name="_next" value="https://islamcentral.netlify.app/contact.html">
                 </form>        
             </div>
         </div>

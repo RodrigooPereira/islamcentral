@@ -53,7 +53,13 @@ button {
     border-radius: 25px;
     border: none;
     font-size: 1rem;
-    box-shadow: 0 0 5px #2FB675;
+    box-shadow: 0 0 10px #2FB675;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: none;
+    transition: 0.5s ease;
 }
 
 
